@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+/* Modificando o cabeçalho da página */
+.logo {
+    Color: #8724D1;
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.logo h1 {
+    font-size: 27px;
+    margin-left: 10px;
+}
+
+.logo img {
+    height: 27px;
+}
+
+/* Modificando a capa da página */
+.capa {
+    background-image: url('images/bahia.jpg');
+}
+
+.container-form {
+    width: 60%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.topo-form {
+    background-color: #8724D1;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    padding: 3px;
+    font-weight: bold;
+}
+
+form {
+    background-color: #fff;
+    padding: 15px;
+}
+
+form h2 {
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+input, select {
+    margin: 6px 0px;
+}
+
+.dados_1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.dados_2 {
+    display: flex;
+}
+
+.dados_2 div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.dados_2 div:first-child {
+    margin-right: 20px;
+}
+
+.dados_3 {
+    line-height: 35px;
+}
+
+.icone {
+    height: 20px;
+    margin-right: 10px;
+}
